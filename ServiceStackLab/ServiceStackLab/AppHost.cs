@@ -17,8 +17,7 @@ namespace ServiceStackLab
         public AppHost()
             : base("ServiceStackLab", typeof(Student).Assembly)
         {
-
-
+            
         }
 
         /// <summary>
