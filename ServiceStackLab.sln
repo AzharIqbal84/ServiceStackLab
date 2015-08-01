@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackLab.Services", "ServiceStackLab\ServiceStackLab\ServiceStackLab.Services.csproj", "{4389B305-B381-4B50-B1A8-BBB5259A0524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackLab.Tests", "ServiceStackLab\ServiceStackLab.Tests\ServiceStackLab.Tests.csproj", "{D22B5797-9F2A-4BA7-9636-6EFCE62EBE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackLab.Redis", "ServiceStackLab.Redis\ServiceStackLab.Redis.csproj", "{0329873D-7E21-48E2-A278-0A217C49763E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackLab.Infrastructure", "ServiceStackLab.Infrastructure\ServiceStackLab.Infrastructure.csproj", "{53B6A881-1C26-49E1-B951-401CAF9D3AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackLab.Domain", "ServiceStackLab.Domain\ServiceStackLab.Domain.csproj", "{EC1BB277-4F6B-466A-B4BD-4005D4F47277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackLab.Data", "ServiceStackLab.Data\ServiceStackLab.Data.csproj", "{BC5540C3-EBFA-4474-AF61-2234796CF15A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22B5797-9F2A-4BA7-9636-6EFCE62EBE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22B5797-9F2A-4BA7-9636-6EFCE62EBE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22B5797-9F2A-4BA7-9636-6EFCE62EBE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22B5797-9F2A-4BA7-9636-6EFCE62EBE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0329873D-7E21-48E2-A278-0A217C49763E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0329873D-7E21-48E2-A278-0A217C49763E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0329873D-7E21-48E2-A278-0A217C49763E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0329873D-7E21-48E2-A278-0A217C49763E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B6A881-1C26-49E1-B951-401CAF9D3AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B6A881-1C26-49E1-B951-401CAF9D3AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B6A881-1C26-49E1-B951-401CAF9D3AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B6A881-1C26-49E1-B951-401CAF9D3AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1BB277-4F6B-466A-B4BD-4005D4F47277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1BB277-4F6B-466A-B4BD-4005D4F47277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1BB277-4F6B-466A-B4BD-4005D4F47277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1BB277-4F6B-466A-B4BD-4005D4F47277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5540C3-EBFA-4474-AF61-2234796CF15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5540C3-EBFA-4474-AF61-2234796CF15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5540C3-EBFA-4474-AF61-2234796CF15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5540C3-EBFA-4474-AF61-2234796CF15A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
