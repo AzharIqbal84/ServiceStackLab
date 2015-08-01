@@ -18,6 +18,7 @@ namespace ServiceStackLab
             : base("ServiceStackLab", typeof(Student).Assembly)
         {
 
+
         }
 
         /// <summary>
